@@ -3,9 +3,13 @@
 
 ## Usage
 `ticker META`
+
 `ticker GOOG`
+
 `ticker AAPL`
+
 `ticker AMZN`
+
 `ticker`
 ## Documentation
 
