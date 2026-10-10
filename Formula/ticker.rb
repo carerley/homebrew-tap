@@ -3,8 +3,8 @@ class Ticker < Formula
 
   desc "Quick no-key stock quotes for the terminal"
   homepage "https://github.com/carerley/terminal-ticker"
-  url "https://github.com/carerley/terminal-ticker/archive/refs/tags/v0.4.0.tar.gz"
-  sha256 "0f8bdc446ae11200a8ed3329ad7c0484dda649494c2d7adc57ceb9e5464bc871"
+  url "https://github.com/carerley/terminal-ticker/archive/refs/tags/v0.4.1.tar.gz"
+  sha256 "3517bddc0e7c2d1ee04b92275725346fdbb301d0566f763f7e5ba2c130eab5fa"
   license "MIT"
 
   depends_on "python"
@@ -19,6 +19,6 @@ class Ticker < Formula
   end
 
   test do
-    assert_match "ticker 0.4.0", shell_output("#{bin}/ticker --version")
+    assert_match "ticker 0.4.1", shell_output("#{bin}/ticker --version")
   end
 end
